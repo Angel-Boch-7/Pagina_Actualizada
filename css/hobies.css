@@ -1,0 +1,60 @@
+body {
+    background-color: beige;
+}
+
+p {
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+img {
+    display: block; /* Para que se centre */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    max-width: 150px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; 
+}
+
+h1{
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+h2 {
+    color: coral;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+h3 {
+    color: black;
+    margin: 5%;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+
+
+.container {
+    background-color: #f4f4f9; /* Fondo suave */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 50px; /* Espacio entre el container y el footer */
+}
+
+.footer {
+    background-color: #343a40; /* Color oscuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: auto; /* Empuja el footer hacia abajo si hay poco contenido */
+}
